@@ -36,4 +36,4 @@ export function FilterAutocomplete({
       getOptionLabel={(option) => option || ''}
     />
   );
-}
+} 
