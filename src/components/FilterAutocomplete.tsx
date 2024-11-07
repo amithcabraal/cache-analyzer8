@@ -30,10 +30,14 @@ export function FilterAutocomplete({
           {...params} 
           label={label}
           placeholder={placeholder}
+          size="small"
+          fullWidth
         />
       )}
+      size="small"
+      fullWidth
       isOptionEqualToValue={(option, value) => option === value}
       getOptionLabel={(option) => option || ''}
     />
   );
-} 
+}
