@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Container, Box, Paper, AppBar, Toolbar, Typography, IconButton, Menu, MenuItem, Dialog, DialogTitle, DialogContent, TextField, Button, Stack } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { FilterPanel } from './components/FilterPanel';
+import { FilterPanel } from './components/FilterPanel/index';
 import { DashboardGrid } from './components/DashboardGrid';
 import { DataTable } from './components/DataTable';
 import { DataImport } from './components/DataImport';
